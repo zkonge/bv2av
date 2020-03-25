@@ -3,13 +3,12 @@
 // @namespace    https://konge.pw/
 // @supportURL   https://github.com/zkonge/bv2av/issues
 // @homepage     https://github.com/zkonge/bv2av
-// @version      0.1
-// @description  使用 AV 号替换 Bilibili 视频地址中的 BV 号
+// @version      0.1.1
+// @description  使用 AV 号替换 Bilibili 视频地址中的 BV 号。直接解码 BV，无刷新，保留所有URL原始参数（分P正常工作）。
 // @author       zkonge
 // @include      *://www.bilibili.com/video/*
 // @grant        none
 // ==/UserScript==
-
 
 (function () {
     // From https://github.com/Coxxs/bvid
